@@ -9,56 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">64,249</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">22,825</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.crm.testscript.CreateCustomerTest</td><td><a href="#m0">logout</a></td><td rowspan="1">1679127056337</td><td rowspan="1">1190</td></tr><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.crm.testscript.CreateCustomerTest</td><td><a href="#m1">createCustomerTest</a></td><td rowspan="1">1679127026965</td><td rowspan="1">29223</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.crm.testscript.CreateCustomerTest</td><td><a href="#m0">createCustomerTest</a></td><td rowspan="1">1679157408267</td><td rowspan="1">8577</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.crm.testscript.CreateCustomerTest#logout</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;/logout.do&quot; id=&quot;logoutLink&quot; class=&quot;logout&quot;&gt;...&lt;/a&gt; is not clickable at point (1309, 17). Other element would receive the click: &lt;img src=&quot;/img/default/dialogs/exitconfirm/shade.png?hash=1846506722&quot; id=&quot;muar&quot; style=&quot;display: block;&quot;&gt;
-  (Session info: chrome=111.0.5563.65)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-54V38RA&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7c103a7454299c2757db59b583a6df73
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.crm.objectrepository.TaskListPage.clickOnLogout(TaskListPage.java:57)
-	at com.crm.generic.BaseClass.logout(BaseClass.java:91)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.crm.testscript.CreateCustomerTest#createCustomerTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;Create Custo&apos;]&quot;}
-  (Session info: chrome=111.0.5563.65)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-54V38RA&apos;, ip: &apos;192.168.1.186&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;19.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 111.0.5563.65, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\user\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:61188}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 7c103a7454299c2757db59b583a6df73
-*** Element info: {Using=xpath, value=//div[text()=&apos;Create Custo&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
-	at com.crm.objectrepository.TaskListPage.clickOncreateCustomerButton(TaskListPage.java:49)
-	at com.crm.testscript.CreateCustomerTest.createCustomerTest(CreateCustomerTest.java:31)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.crm.testscript.CreateCustomerTest#createCustomerTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">onTestStart<br/>onTestSuccess</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
