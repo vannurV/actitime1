@@ -31,6 +31,7 @@ public class CreateCustomerTest extends BaseClass {
 		listPage.clickOnnewCustomerButton();
 		listPage.enterDataInCustomernameTextFiled(expectedCustomerName+random);
 		listPage.enterDataIncustomerDescriptionTextFiled(description);
+		//
 		//listPage.clickOnDropDown();
 		//listPage.selectOurCompany();
 		listPage.clickOncreateCustomerButton();
