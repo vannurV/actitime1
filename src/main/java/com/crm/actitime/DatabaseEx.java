@@ -15,6 +15,7 @@ public class DatabaseEx {
 		Driver driver=new Driver();
 		DriverManager.registerDriver(driver);
 		//step 2: establish connection
+		//
 		Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/weekend","root","root");
 		//step3: create environment
 		Statement statement = connection.createStatement();
