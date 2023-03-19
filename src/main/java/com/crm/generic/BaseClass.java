@@ -33,6 +33,7 @@ public class BaseClass {
 	//@AfterClass(groups = { "smokeTest","regressionTest"})
 	@AfterClass(alwaysRun = true)
 	public void closeBrowser() {
+		//
 		driver.quit();
 	}
 	/**
@@ -87,6 +88,8 @@ public class BaseClass {
 	//@AfterMethod(groups = { "smokeTest","regressionTest"})
 	@AfterMethod(alwaysRun = true)
 	public void logout() {
+		//
+		//
 		TaskListPage listPage=new TaskListPage(driver);
 		listPage.clickOnLogout();
 	}

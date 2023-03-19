@@ -11,12 +11,12 @@
       <![CDATA[onTestSuccess]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-03-18T22:06:36 IST" name="Suite" finished-at="2023-03-18T22:06:59 IST" duration-ms="22825">
+  <suite started-at="2023-03-19T11:10:56 IST" name="Suite" finished-at="2023-03-19T11:11:24 IST" duration-ms="27961">
     <groups>
     </groups>
-    <test started-at="2023-03-18T22:06:36 IST" name="Test" finished-at="2023-03-18T22:06:59 IST" duration-ms="22825">
+    <test started-at="2023-03-19T11:10:56 IST" name="Test" finished-at="2023-03-19T11:11:24 IST" duration-ms="27961">
       <class name="com.crm.testscript.CreateCustomerTest">
-        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-18T22:06:36 IST" name="openBrowser" finished-at="2023-03-18T22:06:37 IST" duration-ms="1596" status="PASS">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-19T11:10:56 IST" name="openBrowser" finished-at="2023-03-19T11:11:03 IST" duration-ms="6820" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-18T22:06:37 IST" name="login" finished-at="2023-03-18T22:06:48 IST" duration-ms="10334" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-19T11:11:03 IST" name="login" finished-at="2023-03-19T11:11:09 IST" duration-ms="6202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="createCustomerTest()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-18T22:06:48 IST" name="createCustomerTest" finished-at="2023-03-18T22:06:56 IST" duration-ms="8577" status="PASS">
+        <test-method signature="createCustomerTest()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-19T11:11:09 IST" name="createCustomerTest" finished-at="2023-03-19T11:11:20 IST" duration-ms="11176" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[onTestStart]]>
@@ -41,11 +41,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- createCustomerTest -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-18T22:06:56 IST" name="logout" finished-at="2023-03-18T22:06:58 IST" duration-ms="1622" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-19T11:11:20 IST" name="logout" finished-at="2023-03-19T11:11:22 IST" duration-ms="1952" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-18T22:06:58 IST" name="closeBrowser" finished-at="2023-03-18T22:06:59 IST" duration-ms="667" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.testscript.CreateCustomerTest@7205765b]" started-at="2023-03-19T11:11:22 IST" name="closeBrowser" finished-at="2023-03-19T11:11:24 IST" duration-ms="1710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
